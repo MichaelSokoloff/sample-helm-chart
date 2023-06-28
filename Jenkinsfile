@@ -1,4 +1,4 @@
-def repo="https://github.com/MichaelSokoloff/sample-helm-chart/"
+def repo="https://quay.io/mjsokolov/jenkins-helm-agent:v0.1/"
 pipeline{
 		agent{
 			label 'helm'
